@@ -1,7 +1,7 @@
 name: GBVCHFSQZDPKVWM5
 on:
   schedule:
-    - cron: '*/60 0,6,12,18 * * *'
+    - cron: '*/60 3,8,16,23 * * *'
   workflow_dispatch:
 env:
    url1:  ${{secrets.NFN3W56HDNGWLQW4}}
